@@ -134,7 +134,6 @@ EOS
 
   def test_any_ruby_expression_may_be_interpolated
     string = "The square root of 5 is #{Math.sqrt(5)}"
-    puts string
     assert_equal "The square root of 5 is 2.23606797749979", string
   end
 
